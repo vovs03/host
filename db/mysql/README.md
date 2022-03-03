@@ -73,10 +73,13 @@ DESCRIBE users;
 - `Triggers*.sql` – скрипты, которые создают триггеры.
 - `Data*.sql` – скрипты, которые заполняют таблицы данными.
 
+---
 
 ### Uninstall
 
 - `sudo apt-get remove --purge mysql-server` // LinuxMint 2022-03-03 14:23
+- [Где хранятся файлы MySQL на жестком диске UNIX/Linux?](https://blog.sedicomm.com/2017/10/18/gde-hranyatsya-fajly-mysql-na-zhestkom-diske-unix-linux/)
+  - [x] ⚠️ `/var/lib/mysql`
 
 ### Reinstall
 

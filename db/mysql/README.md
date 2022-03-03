@@ -36,6 +36,9 @@ service mysql stop
 /etc/init.d/mysql stop
 ```
 
+> systemctl status mysql.service
+
+
 ```SQL
 
 CREATE TABLE users (
@@ -88,3 +91,5 @@ DESCRIBE users;
 2022-03-03T13:39:17.653794Z mysqld_safe Directory '/var/run/mysqld' for UNIX socket file don't exists.
 /usr/bin/mysqld_safe: 152: /usr/bin/mysqld_safe: cannot create /var/log/mysql/error.log: Permission denied
 ```
+
+- [DANGER: RISKY OPERATTION](https://stackoverflow.com/questions/1708409/how-to-start-mysql-with-skip-grant-tables)

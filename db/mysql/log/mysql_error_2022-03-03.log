@@ -1,0 +1,1484 @@
+2022-03-03T11:08:55.231436Z 8 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-03T11:09:04.856131Z 9 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-03T11:09:24.222686Z 10 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-03T11:10:40.001931Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T11:10:40.001995Z 0 [Note] Shutting down slave threads
+2022-03-03T11:10:40.002010Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T11:10:40.002031Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T11:10:40.010244Z 0 [Note] Binlog end
+2022-03-03T11:10:40.055718Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T11:10:40.056065Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T11:10:40.056115Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T11:10:40.056131Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T11:10:40.056139Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T11:10:40.056494Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T11:10:40.056504Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T11:10:40.056850Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T11:10:40.057868Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T11:10:40.058539Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T11:10:40.059910Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T11:10:40.059921Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T11:10:40.059928Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T11:10:40.059935Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T11:10:40.059942Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T11:10:40.059949Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T11:10:40.059955Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T11:10:40.059962Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T11:10:40.059969Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T11:10:40.059976Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T11:10:40.059995Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T11:10:40.060004Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T11:10:40.060011Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T11:10:40.060018Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T11:10:40.060026Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T11:10:40.060033Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T11:10:40.060040Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T11:10:40.060047Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T11:10:40.060054Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T11:10:40.060060Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T11:10:40.060067Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T11:10:40.060074Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T11:10:40.060081Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T11:10:40.060088Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T11:10:40.060094Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T11:10:40.060101Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T11:10:40.060108Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T11:10:40.060115Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T11:10:40.060121Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T11:10:40.060128Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T11:10:40.078299Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T11:10:40.080134Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T11:10:40.183481Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:10:40.191600Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 14:10:40
+2022-03-03T11:10:42.165497Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871468
+2022-03-03T11:10:42.166239Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:10:42.166272Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T11:10:42.167262Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:10:42.167334Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T11:10:42.167348Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T11:10:42.175048Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T11:10:42.191424Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T11:11:06.832822Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:11:06.873735Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 5188 ...
+2022-03-03T11:11:06.908547Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:11:06.908653Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:11:06.908673Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:11:06.908693Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:11:06.908712Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:11:06.908729Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:11:06.910571Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:11:06.914172Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:11:06.921148Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:11:06.946199Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:11:06.952147Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:11:07.002408Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:11:07.175730Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:11:07.175960Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:11:07.298917Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:11:07.301675Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:11:07.301748Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:11:07.302845Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T11:11:07.353170Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871468
+2022-03-03T11:11:07.353550Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:11:07.354095Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:11:07.391037Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:11:07
+2022-03-03T11:11:07.402635Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:11:07.404902Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:11:07.404935Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:11:07.404950Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:11:07.412316Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:11:07.414363Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:11:07.415047Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:11:07.415082Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:11:07.415177Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:11:07.510485Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:11:07.510833Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:11:13.993705Z 2 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-03T11:12:22.352867Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T11:12:22.352931Z 0 [Note] Shutting down slave threads
+2022-03-03T11:12:22.352945Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T11:12:22.352958Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T11:12:22.353636Z 0 [Note] Binlog end
+2022-03-03T11:12:22.354450Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T11:12:22.354496Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T11:12:22.354505Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T11:12:22.354512Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T11:12:22.354519Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T11:12:22.354527Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T11:12:22.354534Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T11:12:22.354589Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T11:12:22.354597Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T11:12:22.354609Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T11:12:22.354617Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T11:12:22.354624Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T11:12:22.354630Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T11:12:22.354637Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T11:12:22.354644Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T11:12:22.354650Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T11:12:22.354657Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T11:12:22.354664Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T11:12:22.354670Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T11:12:22.354677Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T11:12:22.354684Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T11:12:22.354690Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T11:12:22.354697Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T11:12:22.354704Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T11:12:22.354710Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T11:12:22.354717Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T11:12:22.354724Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T11:12:22.354731Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T11:12:22.354737Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T11:12:22.354744Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T11:12:22.354751Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T11:12:22.354757Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T11:12:22.354764Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T11:12:22.354771Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T11:12:22.354777Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T11:12:22.354784Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T11:12:22.354791Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T11:12:22.354797Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T11:12:22.354804Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T11:12:22.354811Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T11:12:22.354890Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T11:12:22.355046Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T11:12:22.455265Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:12:22.455930Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 14:12:22
+2022-03-03T11:12:24.186737Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871496
+2022-03-03T11:12:24.189728Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:12:24.189797Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T11:12:24.189807Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:12:24.189816Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T11:12:24.189822Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T11:12:24.190242Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T11:12:24.190921Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T11:16:42.353877Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:16:42.356883Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 5571 ...
+2022-03-03T11:16:42.396648Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:16:42.396741Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:16:42.396762Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:16:42.396780Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:16:42.396797Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:16:42.396814Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:16:42.398536Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:16:42.449380Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:16:42.455056Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:16:42.489024Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:16:42.506090Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:16:42.656775Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:16:42.794670Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:16:42.794902Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:16:42.920646Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:16:42.923255Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:16:42.923299Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:16:42.924396Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T11:16:42.974680Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871496
+2022-03-03T11:16:42.974987Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:16:42.975553Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:16:43.014393Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:16:43
+2022-03-03T11:16:43.016968Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:16:43.017016Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:16:43.017028Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:16:43.017035Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:16:43.020065Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:16:43.022141Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:16:43.022849Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:16:43.022901Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:16:43.022974Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:16:43.082473Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:16:43.082880Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:18:05.992288Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:18:05.995563Z 0 [Note] mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 5656 ...
+2022-03-03T11:18:06.013009Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:18:06.013071Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:18:06.013081Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:18:06.013089Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:18:06.013097Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:18:06.013105Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:18:06.013668Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:18:06.013887Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:18:06.017390Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:18:06.035627Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:18:06.039937Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:18:06.050054Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:06.050149Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:06.050182Z 0 [Note] InnoDB: Retrying to lock the first data file
+2022-03-03T11:18:07.050320Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:07.050394Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:08.050534Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:08.050607Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:09.050748Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:09.050817Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:10.050949Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:10.051022Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:11.051166Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:11.051238Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:12.051372Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:12.051443Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:13.051578Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:13.051651Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:14.051795Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:14.051864Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:15.052013Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:15.052096Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:16.052271Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:16.052340Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:17.052477Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:17.052542Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:18.052676Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:18.052747Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:19.052909Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:19.052971Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:20.053112Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:20.053214Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:21.053352Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:21.053423Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:22.053544Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:22.053598Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:23.053726Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:23.053797Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:24.053941Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:24.054013Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:25.054156Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:25.054242Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:26.054405Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:26.054475Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:27.054611Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:27.054684Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:28.054828Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:28.054899Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:29.055034Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:29.055112Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:30.055272Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:30.055344Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:31.055489Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:31.055561Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:32.055709Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:32.055782Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:33.055932Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:33.056035Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:34.056177Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:34.056266Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:35.056420Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:35.056493Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:36.056635Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:36.056710Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:37.056873Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:37.056948Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:38.057087Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:38.057168Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:39.057314Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:39.057381Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:40.057514Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:40.057587Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:41.057720Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:41.057798Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:42.057940Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:42.058013Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:43.058155Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:43.058230Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:44.058375Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:44.058463Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:45.058620Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:45.058693Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:46.058837Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:46.058911Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:47.059053Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:47.059127Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:48.059268Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:48.059340Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:49.059482Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:49.059568Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:50.059747Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:50.059821Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:51.059966Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:51.060052Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:52.060196Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:52.060271Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:53.060409Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:53.060484Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:54.060632Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:54.060718Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:55.060906Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:55.060978Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:56.061121Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:56.061194Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:57.061336Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:57.061408Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:58.061552Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:58.061622Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:18:59.061763Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:18:59.061841Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:00.061976Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:00.062049Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:01.062195Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:01.062266Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:02.062418Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:02.062491Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:03.062636Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:03.062707Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:04.062846Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:04.062931Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:05.063089Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:05.063158Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:06.063300Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:06.063369Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:07.063500Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:07.063574Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:08.063697Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:08.063750Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:09.063886Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:09.063970Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:10.064705Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:10.064778Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:11.064915Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:11.064981Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:12.065118Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:12.065196Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:13.065331Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:13.065434Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:14.065583Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:14.065711Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:15.065856Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:15.065932Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:16.066062Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:16.066136Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:17.066267Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:17.066339Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:18.066480Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:18.066540Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:19.066680Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:19.066760Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:20.066907Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:20.066981Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:21.067122Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:21.067199Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:22.067333Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:22.067408Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:23.067542Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:23.067617Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:24.067755Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:24.067832Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:25.067971Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:25.068065Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:26.068207Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:26.068299Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:27.068446Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:27.068519Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:28.068654Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:28.068733Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:29.068878Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:29.068958Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:30.069101Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:30.069182Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:31.069326Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:31.069439Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:32.069576Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:32.069649Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:33.069788Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:33.069856Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:34.069988Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:34.070073Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:35.072061Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:35.072119Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:36.072253Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:36.072508Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:37.072627Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:37.072684Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:38.072807Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:38.072887Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:39.073012Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:39.073069Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:40.085232Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:40.085294Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:41.085411Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:41.085474Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:42.086004Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:42.088871Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:43.089014Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:43.089098Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:44.089229Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:44.089290Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:45.089441Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:45.089520Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:46.089645Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:19:46.089721Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:19:46.089741Z 0 [Note] InnoDB: Unable to open the first data file
+2022-03-03T11:19:46.091056Z 0 [ERROR] InnoDB: Operating system error number 11 in a file operation.
+2022-03-03T11:19:46.091089Z 0 [ERROR] InnoDB: Error number 11 means 'Resource temporarily unavailable'
+2022-03-03T11:19:46.091107Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2022-03-03T11:19:46.091123Z 0 [ERROR] InnoDB: Cannot open datafile './ibdata1'
+2022-03-03T11:19:46.091143Z 0 [ERROR] InnoDB: Could not open or create the system tablespace. If you tried to add new data files to the system tablespace, and it failed here, you should now edit innodb_data_file_path in my.cnf back to what it was, and remove the new ibdata files InnoDB created in this failed attempt. InnoDB only wrote those files full of zeros, but did not yet use them in any way. But be careful: do not remove old data files which contain your precious data!
+2022-03-03T11:19:46.091191Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Cannot open a file
+2022-03-03T11:19:46.691700Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-03-03T11:19:46.691796Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-03-03T11:19:46.691816Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-03-03T11:19:46.691828Z 0 [ERROR] Aborting
+
+2022-03-03T11:19:46.691854Z 0 [Note] Binlog end
+2022-03-03T11:19:46.692787Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:19:46.695666Z 0 [Note] mysqld: Shutdown complete
+
+2022-03-03T11:20:55.753403Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T11:20:55.753499Z 0 [Note] Shutting down slave threads
+2022-03-03T11:20:55.765089Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T11:20:55.765150Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T11:20:55.765257Z 0 [Note] Binlog end
+2022-03-03T11:20:55.768495Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T11:20:55.768559Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T11:20:55.768568Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T11:20:55.768574Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T11:20:55.768581Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T11:20:55.768589Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T11:20:55.768595Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T11:20:55.768650Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T11:20:55.768659Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T11:20:55.768670Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T11:20:55.768678Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T11:20:55.768684Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T11:20:55.768691Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T11:20:55.768697Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T11:20:55.768703Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T11:20:55.768710Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T11:20:55.768716Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T11:20:55.768722Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T11:20:55.768729Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T11:20:55.768736Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T11:20:55.768742Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T11:20:55.768749Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T11:20:55.768756Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T11:20:55.768762Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T11:20:55.768768Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T11:20:55.768774Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T11:20:55.768781Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T11:20:55.768787Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T11:20:55.768793Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T11:20:55.768800Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T11:20:55.768806Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T11:20:55.768812Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T11:20:55.768818Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T11:20:55.768825Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T11:20:55.768831Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T11:20:55.768856Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T11:20:55.768862Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T11:20:55.768867Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T11:20:55.768875Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T11:20:55.768880Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T11:20:55.770404Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T11:20:55.770644Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T11:20:55.871460Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:20:55.876799Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 14:20:55
+2022-03-03T11:20:57.303603Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871524
+2022-03-03T11:20:57.304867Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:20:57.304898Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T11:20:57.304907Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:20:57.304916Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T11:20:57.304922Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T11:20:57.306804Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T11:20:57.311331Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T11:24:46.241917Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:24:46.260254Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 6384 ...
+2022-03-03T11:24:46.293800Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:24:46.293866Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:24:46.293877Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:24:46.293886Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:24:46.293895Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:24:46.293904Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:24:46.295572Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:24:46.299524Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:24:46.302682Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:24:46.330921Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:24:46.360617Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:24:46.446536Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:24:46.766522Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:24:46.766734Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:24:46.903144Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:24:46.905811Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:24:46.905878Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:24:46.906929Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T11:24:46.957291Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871524
+2022-03-03T11:24:46.957912Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:24:46.958332Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:24:46.997927Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:24:46
+2022-03-03T11:24:47.010217Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:24:47.011370Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:24:47.011393Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:24:47.011407Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:24:47.015104Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:24:47.017422Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:24:47.017963Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:24:47.017984Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:24:47.018033Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:24:47.077220Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:24:47.077741Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:24:58.435414Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-03T11:25:03.220256Z 3 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-03T11:25:20.249871Z 4 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-03T11:26:27.773087Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T11:26:27.773142Z 0 [Note] Shutting down slave threads
+2022-03-03T11:26:27.773154Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T11:26:27.773167Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T11:26:27.775189Z 0 [Note] Binlog end
+2022-03-03T11:26:27.776101Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T11:26:27.776133Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T11:26:27.776142Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T11:26:27.776148Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T11:26:27.776155Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T11:26:27.776163Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T11:26:27.776170Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T11:26:27.776222Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T11:26:27.776230Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T11:26:27.776241Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T11:26:27.776248Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T11:26:27.776255Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T11:26:27.776261Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T11:26:27.776267Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T11:26:27.776274Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T11:26:27.776280Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T11:26:27.776286Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T11:26:27.776293Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T11:26:27.776299Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T11:26:27.776305Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T11:26:27.776312Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T11:26:27.776318Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T11:26:27.776325Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T11:26:27.776331Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T11:26:27.776338Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T11:26:27.776344Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T11:26:27.776351Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T11:26:27.776357Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T11:26:27.776363Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T11:26:27.776370Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T11:26:27.776376Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T11:26:27.776382Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T11:26:27.776389Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T11:26:27.776395Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T11:26:27.776419Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T11:26:27.776425Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T11:26:27.776431Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T11:26:27.776437Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T11:26:27.776442Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T11:26:27.776447Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T11:26:27.776673Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T11:26:27.777327Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T11:26:27.877562Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:26:27.878088Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 14:26:27
+2022-03-03T11:26:29.109003Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871552
+2022-03-03T11:26:29.112261Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:26:29.112289Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T11:26:29.112298Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:26:29.112307Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T11:26:29.112312Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T11:26:29.112725Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T11:26:29.113331Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T11:32:14.631640Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:32:14.634555Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 7209 ...
+2022-03-03T11:32:14.648416Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:32:14.648481Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:32:14.648492Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:32:14.648501Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:32:14.648510Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:32:14.648519Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:32:14.650182Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:32:14.654049Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:32:14.657748Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:32:14.680062Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:32:14.685945Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:32:14.730114Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:32:14.866368Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:32:14.866627Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:32:14.983912Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:32:14.986371Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:32:14.986434Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:32:14.987236Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T11:32:15.037548Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871552
+2022-03-03T11:32:15.038177Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:32:15.038639Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:32:15.072828Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:32:15.072880Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:32:15.072891Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:32:15.072898Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:32:15.077158Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:32:15
+2022-03-03T11:32:15.079858Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:32:15.081851Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:32:15.082555Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:32:15.082601Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:32:15.082676Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:32:15.143609Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:32:15.144126Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:32:25.350599Z 2 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2022-03-03T11:32:28.568699Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-03T11:34:28.193129Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:34:28.205755Z 0 [Note] mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 7356 ...
+2022-03-03T11:34:28.217637Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:34:28.217699Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:34:28.217710Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:34:28.217720Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:34:28.217729Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:34:28.217738Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:34:28.218159Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:34:28.218344Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:34:28.225897Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:34:28.268399Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:34:28.278376Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:34:28.288420Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:28.288505Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:28.288539Z 0 [Note] InnoDB: Retrying to lock the first data file
+2022-03-03T11:34:29.288675Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:29.288763Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:30.288906Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:30.288984Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:31.289117Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:31.289192Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:32.289327Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:32.289405Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:33.289543Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:33.289617Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:34.289753Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:34.289832Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:35.289967Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:35.290043Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:36.290211Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:36.290283Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:37.290418Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:37.290489Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:38.290623Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:38.290695Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:39.290827Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:39.290900Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:40.291033Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:40.291106Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:41.291239Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:41.291312Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:42.291451Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:42.291523Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:43.291658Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:43.291730Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:44.291863Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:44.291951Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:45.292120Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:45.292190Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:46.292328Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:46.292401Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:47.292527Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:47.292603Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:48.292738Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:48.292813Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:49.292952Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:49.293039Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:50.293214Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:50.293281Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:51.293408Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:51.293481Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:52.293625Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:52.293697Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:53.293831Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:53.293905Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:54.294087Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:54.294167Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:55.294308Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:55.294382Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:56.294514Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:56.294590Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:57.294759Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:57.294834Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:58.294965Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:58.295035Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:34:59.295187Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:34:59.295265Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:00.295406Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:00.295487Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:01.295623Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:01.295698Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:02.295844Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:02.295928Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:03.296071Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:03.296147Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:04.296284Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:04.296359Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:05.296505Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:05.296581Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:06.296726Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:06.296802Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:07.296950Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:07.297045Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:08.297202Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:08.297279Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:09.297432Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:09.297508Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:10.297641Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:10.297723Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:11.297853Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:11.297933Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:12.298106Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:12.298808Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:13.298931Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:13.298984Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:14.299115Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:14.299189Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:15.299325Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:15.299397Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:16.299535Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:16.299608Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:17.299737Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:17.299808Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:18.299952Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:18.300046Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:19.300193Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:19.300267Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:20.300406Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:20.300481Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:21.300615Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:21.300697Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:22.300839Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:22.300908Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:23.301056Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:23.301127Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:24.301261Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:24.301338Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:25.301479Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:25.301548Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:26.301680Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:26.301751Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:27.301891Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:27.301961Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:28.302099Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:28.302171Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:29.302311Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:29.302392Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:30.302530Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:30.302642Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:31.302792Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:31.302874Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:32.303015Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:32.303094Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:33.303240Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:33.303315Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:34.303459Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:34.303542Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:35.303686Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:35.303760Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:36.303885Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:36.303946Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:37.304050Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:37.304112Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:38.304243Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:38.304329Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:39.304468Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:39.304544Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:40.304683Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:40.304759Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:41.304904Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:41.304979Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:42.305122Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:42.305196Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:43.305335Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:43.305410Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:44.305526Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:44.305593Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:45.305732Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:45.305808Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:46.305949Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:46.306019Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:47.306161Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:47.306238Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:48.306378Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:48.306484Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:49.306627Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:49.306700Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:50.306852Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:50.306924Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:51.307065Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:51.307154Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:52.307339Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:52.307411Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:53.307547Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:53.307619Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:54.307754Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:54.307829Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:55.307964Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:55.308049Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:56.308189Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:56.308265Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:57.308420Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:57.308486Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:58.308625Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:58.308704Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:35:59.308843Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:35:59.308922Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:00.309105Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:00.309185Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:01.309327Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:01.309400Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:02.309534Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:02.309606Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:03.309737Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:03.309812Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:04.309956Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:04.310025Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:05.310177Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:05.310250Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:06.310371Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:06.310436Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:07.310574Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:07.310641Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:08.310761Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2022-03-03T11:36:08.310821Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2022-03-03T11:36:08.310834Z 0 [Note] InnoDB: Unable to open the first data file
+2022-03-03T11:36:08.310857Z 0 [ERROR] InnoDB: Operating system error number 11 in a file operation.
+2022-03-03T11:36:08.310875Z 0 [ERROR] InnoDB: Error number 11 means 'Resource temporarily unavailable'
+2022-03-03T11:36:08.310885Z 0 [Note] InnoDB: Some operating system error numbers are described at http://dev.mysql.com/doc/refman/5.7/en/operating-system-error-codes.html
+2022-03-03T11:36:08.310895Z 0 [ERROR] InnoDB: Cannot open datafile './ibdata1'
+2022-03-03T11:36:08.310907Z 0 [ERROR] InnoDB: Could not open or create the system tablespace. If you tried to add new data files to the system tablespace, and it failed here, you should now edit innodb_data_file_path in my.cnf back to what it was, and remove the new ibdata files InnoDB created in this failed attempt. InnoDB only wrote those files full of zeros, but did not yet use them in any way. But be careful: do not remove old data files which contain your precious data!
+2022-03-03T11:36:08.310918Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Cannot open a file
+2022-03-03T11:36:08.911417Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-03-03T11:36:08.911500Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-03-03T11:36:08.911521Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-03-03T11:36:08.911536Z 0 [ERROR] Aborting
+
+2022-03-03T11:36:08.911573Z 0 [Note] Binlog end
+2022-03-03T11:36:08.911702Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:36:08.912725Z 0 [Note] mysqld: Shutdown complete
+
+2022-03-03T11:44:29.976512Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:44:29.979492Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 7942 ...
+2022-03-03T11:44:29.987555Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:44:29.987619Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:44:29.987629Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:44:29.987639Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:44:29.987648Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:44:29.987656Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:44:29.988146Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:44:29.988342Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:44:29.991212Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:44:30.010055Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:44:30.014027Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:44:30.043733Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:44:30.052847Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2871571
+2022-03-03T11:44:30.052902Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2871580
+2022-03-03T11:44:30.052915Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-03-03T11:44:30.052924Z 0 [Note] InnoDB: Starting crash recovery.
+2022-03-03T11:44:30.294254Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:44:30.294308Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:44:30.294438Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:44:30.416125Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:44:30.418687Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:44:30.418728Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:44:30.419892Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871580
+2022-03-03T11:44:30.420225Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:44:30.420881Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:44:30.427051Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:44:30
+2022-03-03T11:44:30.437403Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:44:30.437455Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:44:30.437465Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:44:30.437471Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:44:30.439743Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:44:30.439814Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:44:30.440367Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:44:30.440393Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:44:30.440444Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:44:30.494720Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:44:30.495138Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:47:16.702134Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:47:16.705185Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 8335 ...
+2022-03-03T11:47:16.713214Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:47:16.713283Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:47:16.713293Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:47:16.713302Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:47:16.713311Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:47:16.713320Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:47:16.713762Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:47:16.713949Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:47:16.717036Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:47:16.737043Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:47:16.740774Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:47:16.757139Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:47:16.760843Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2871599
+2022-03-03T11:47:16.760899Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2871608
+2022-03-03T11:47:16.760911Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-03-03T11:47:16.760921Z 0 [Note] InnoDB: Starting crash recovery.
+2022-03-03T11:47:16.905277Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:47:16.905358Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:47:16.905519Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:47:17.022077Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:47:17.024714Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:47:17.024762Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:47:17.025808Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871608
+2022-03-03T11:47:17.026143Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:47:17.026595Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:47:17.032530Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:47:17
+2022-03-03T11:47:17.039566Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:47:17.039620Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:47:17.039630Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:17.039636Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:17.040728Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:47:17.040791Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:47:17.040907Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:47:17.040933Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:47:17.040986Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:47:17.051801Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:47:17.052304Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:47:39.714014Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:47:39.717091Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 8422 ...
+2022-03-03T11:47:39.725075Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:47:39.725143Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:47:39.725152Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:47:39.725160Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:47:39.725168Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:47:39.725176Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:47:39.725626Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:47:39.725823Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:47:39.729532Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:47:39.748569Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:47:39.752382Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:47:39.768684Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:47:39.772784Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2871636
+2022-03-03T11:47:39.772861Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2871645
+2022-03-03T11:47:39.772881Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-03-03T11:47:39.772897Z 0 [Note] InnoDB: Starting crash recovery.
+2022-03-03T11:47:39.905540Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:47:39.905625Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:47:39.905795Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:47:40.019762Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:47:40.021181Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:47:40.021207Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:47:40.021736Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T11:47:40.072030Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871645
+2022-03-03T11:47:40.072478Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:47:40.072901Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:47:40.078945Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:47:40
+2022-03-03T11:47:40.087944Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:47:40.088012Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:47:40.088023Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:40.088029Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:40.089064Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:47:40.089110Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:47:40.089225Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:47:40.089244Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:47:40.089310Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:47:40.099520Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:47:40.099883Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:47:47.954109Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:47:47.957307Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 8519 ...
+2022-03-03T11:47:47.965529Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:47:47.965593Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:47:47.965602Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:47:47.965611Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:47:47.965619Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:47:47.965627Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:47:47.966069Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:47:47.966263Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:47:47.969415Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:47:47.988864Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:47:47.992757Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:47:48.008563Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:47:48.010854Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2871664
+2022-03-03T11:47:48.010898Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2871673
+2022-03-03T11:47:48.010910Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-03-03T11:47:48.010917Z 0 [Note] InnoDB: Starting crash recovery.
+2022-03-03T11:47:48.140754Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:47:48.140838Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:47:48.141008Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:47:48.254466Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:47:48.257105Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:47:48.257172Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:47:48.258456Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871673
+2022-03-03T11:47:48.259295Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:47:48.260291Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:47:48.265668Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:47:48
+2022-03-03T11:47:48.272191Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:47:48.272244Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:47:48.272253Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:48.272259Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:48.273339Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:47:48.273394Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:47:48.273510Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:47:48.273535Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:47:48.273591Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:47:48.285053Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:47:48.285430Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:47:57.455296Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T11:47:57.458365Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 8592 ...
+2022-03-03T11:47:57.466393Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T11:47:57.466458Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T11:47:57.466467Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T11:47:57.466476Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T11:47:57.466484Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T11:47:57.466492Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T11:47:57.466932Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T11:47:57.467126Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T11:47:57.470186Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T11:47:57.489765Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T11:47:57.493521Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T11:47:57.509808Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T11:47:57.514037Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2871692
+2022-03-03T11:47:57.514119Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2871701
+2022-03-03T11:47:57.514140Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-03-03T11:47:57.514156Z 0 [Note] InnoDB: Starting crash recovery.
+2022-03-03T11:47:57.649046Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:47:57.649141Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T11:47:57.649300Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T11:47:57.780747Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T11:47:57.782228Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T11:47:57.782252Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T11:47:57.782717Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T11:47:57.832974Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871701
+2022-03-03T11:47:57.833383Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:47:57.833865Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T11:47:57.839819Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 14:47:57
+2022-03-03T11:47:57.850917Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T11:47:57.850959Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T11:47:57.850969Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:57.850975Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T11:47:57.852041Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T11:47:57.852095Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T11:47:57.852213Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T11:47:57.852232Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T11:47:57.852299Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T11:47:57.862989Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T11:47:57.863348Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T11:48:17.347972Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T11:48:17.348093Z 0 [Note] Shutting down slave threads
+2022-03-03T11:48:17.348105Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T11:48:17.348116Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T11:48:17.348178Z 0 [Note] Binlog end
+2022-03-03T11:48:17.348959Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T11:48:17.348998Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T11:48:17.349004Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T11:48:17.349011Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T11:48:17.349017Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T11:48:17.349024Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T11:48:17.349030Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T11:48:17.349084Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T11:48:17.349091Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T11:48:17.349102Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T11:48:17.349108Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T11:48:17.349114Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T11:48:17.349120Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T11:48:17.349126Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T11:48:17.349131Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T11:48:17.349137Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T11:48:17.349143Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T11:48:17.349149Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T11:48:17.349154Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T11:48:17.349160Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T11:48:17.349166Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T11:48:17.349172Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T11:48:17.349177Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T11:48:17.349183Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T11:48:17.349189Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T11:48:17.349194Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T11:48:17.349200Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T11:48:17.349206Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T11:48:17.349211Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T11:48:17.349217Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T11:48:17.349223Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T11:48:17.349250Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T11:48:17.349256Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T11:48:17.349262Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T11:48:17.349267Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T11:48:17.349273Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T11:48:17.349279Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T11:48:17.349284Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T11:48:17.349290Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T11:48:17.349296Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T11:48:17.349377Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T11:48:17.349639Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T11:48:17.450283Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T11:48:17.450796Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 14:48:17
+2022-03-03T11:48:18.680004Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871729
+2022-03-03T11:48:18.684219Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T11:48:18.684248Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T11:48:18.684257Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T11:48:18.684266Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T11:48:18.684272Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T11:48:18.684597Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T11:48:18.685235Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T13:35:52.998344Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T13:35:53.001290Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 15904 ...
+2022-03-03T13:35:53.009012Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T13:35:53.009075Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T13:35:53.009085Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T13:35:53.009094Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T13:35:53.009103Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T13:35:53.009111Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T13:35:53.009521Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T13:35:53.009693Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T13:35:53.012483Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T13:35:53.030494Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T13:35:53.034265Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T13:35:53.052276Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T13:35:53.077064Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T13:35:53.077227Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T13:35:53.190593Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T13:35:53.193023Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T13:35:53.193071Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T13:35:53.193780Z 0 [Note] InnoDB: Waiting for purge to start
+2022-03-03T13:35:53.244108Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871729
+2022-03-03T13:35:53.244515Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:35:53.244929Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T13:35:53.252358Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 16:35:53
+2022-03-03T13:35:53.258548Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T13:35:53.258623Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T13:35:53.258633Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:35:53.258639Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:35:53.259717Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T13:35:53.259773Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T13:35:53.259895Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T13:35:53.259921Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T13:35:53.260014Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T13:35:53.271203Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T13:35:53.271551Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T13:36:30.232523Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T13:36:30.232585Z 0 [Note] Shutting down slave threads
+2022-03-03T13:36:30.232599Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T13:36:30.232611Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T13:36:30.232694Z 0 [Note] Binlog end
+2022-03-03T13:36:30.233458Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T13:36:30.233501Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T13:36:30.233510Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T13:36:30.233517Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T13:36:30.233524Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T13:36:30.233532Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T13:36:30.233538Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T13:36:30.233589Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T13:36:30.233597Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T13:36:30.233609Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T13:36:30.233616Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T13:36:30.233622Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T13:36:30.233629Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T13:36:30.233635Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T13:36:30.233642Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T13:36:30.233648Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T13:36:30.233655Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T13:36:30.233663Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T13:36:30.233669Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T13:36:30.233676Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T13:36:30.233682Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T13:36:30.233689Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T13:36:30.233695Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T13:36:30.233702Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T13:36:30.233708Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T13:36:30.233715Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T13:36:30.233721Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T13:36:30.233728Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T13:36:30.233734Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T13:36:30.233743Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T13:36:30.233752Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T13:36:30.233759Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T13:36:30.233765Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T13:36:30.233772Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T13:36:30.233800Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T13:36:30.233806Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T13:36:30.233812Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T13:36:30.233818Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T13:36:30.233823Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T13:36:30.233829Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T13:36:30.233921Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T13:36:30.234267Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T13:36:30.334518Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:36:30.335049Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 16:36:30
+2022-03-03T13:36:32.065341Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871757
+2022-03-03T13:36:32.068178Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T13:36:32.068224Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T13:36:32.068235Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T13:36:32.068243Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T13:36:32.068249Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T13:36:32.068662Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T13:36:32.069271Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T13:36:40.631176Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T13:36:40.633819Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 16035 ...
+2022-03-03T13:36:40.641255Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T13:36:40.641324Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T13:36:40.641333Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T13:36:40.641341Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T13:36:40.641349Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T13:36:40.641356Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T13:36:40.641798Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T13:36:40.641963Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T13:36:40.644954Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T13:36:40.662288Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T13:36:40.666138Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T13:36:40.681003Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T13:36:40.706779Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T13:36:40.707106Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T13:36:40.825478Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T13:36:40.828185Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T13:36:40.828252Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T13:36:40.829422Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871757
+2022-03-03T13:36:40.830272Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T13:36:40.831711Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:36:40.837346Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 16:36:40
+2022-03-03T13:36:40.844933Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T13:36:40.844985Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T13:36:40.844995Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:36:40.845000Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:36:40.846068Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T13:36:40.846124Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T13:36:40.846238Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T13:36:40.846263Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T13:36:40.846332Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T13:36:40.857103Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T13:36:40.857634Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T13:37:08.903818Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-03T13:37:45.983177Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T13:37:45.983239Z 0 [Note] Shutting down slave threads
+2022-03-03T13:37:45.983252Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T13:37:45.983265Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T13:37:45.984231Z 0 [Note] Binlog end
+2022-03-03T13:37:45.985032Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T13:37:45.985075Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T13:37:45.985083Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T13:37:45.985090Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T13:37:45.985097Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T13:37:45.985105Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T13:37:45.985111Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T13:37:45.985159Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T13:37:45.985167Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T13:37:45.985178Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T13:37:45.985186Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T13:37:45.985192Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T13:37:45.985199Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T13:37:45.985205Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T13:37:45.985211Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T13:37:45.985218Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T13:37:45.985224Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T13:37:45.985230Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T13:37:45.985236Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T13:37:45.985243Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T13:37:45.985249Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T13:37:45.985255Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T13:37:45.985262Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T13:37:45.985268Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T13:37:45.985275Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T13:37:45.985281Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T13:37:45.985290Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T13:37:45.985296Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T13:37:45.985302Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T13:37:45.985308Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T13:37:45.985315Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T13:37:45.985321Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T13:37:45.985327Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T13:37:45.985334Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T13:37:45.985340Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T13:37:45.985347Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T13:37:45.985353Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T13:37:45.985383Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T13:37:45.985389Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T13:37:45.985395Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T13:37:45.985472Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T13:37:45.985897Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T13:37:46.086163Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:37:46.086732Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 16:37:46
+2022-03-03T13:37:47.816123Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871785
+2022-03-03T13:37:47.818935Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T13:37:47.818961Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T13:37:47.818970Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T13:37:47.818979Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T13:37:47.818984Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T13:37:47.819308Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T13:37:47.819895Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T13:43:25.786118Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T13:43:25.789143Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 16842 ...
+2022-03-03T13:43:25.797569Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T13:43:25.797647Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T13:43:25.797657Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T13:43:25.797667Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T13:43:25.797676Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T13:43:25.797684Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T13:43:25.798140Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T13:43:25.798331Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T13:43:25.801418Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T13:43:25.819907Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T13:43:25.823897Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T13:43:25.840311Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T13:43:25.867064Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T13:43:25.867228Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T13:43:25.987021Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T13:43:25.989642Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T13:43:25.989691Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T13:43:25.990850Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871785
+2022-03-03T13:43:25.991177Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:43:25.991619Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T13:43:25.997732Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 16:43:25
+2022-03-03T13:43:26.005451Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T13:43:26.005502Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T13:43:26.005512Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:43:26.005519Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:43:26.006574Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T13:43:26.006615Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T13:43:26.006740Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T13:43:26.006757Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T13:43:26.006809Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T13:43:26.016394Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T13:43:26.016914Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T13:43:38.834876Z 2 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2022-03-03T13:44:20.868685Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T13:44:20.868729Z 0 [Note] Shutting down slave threads
+2022-03-03T13:44:20.868741Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T13:44:20.868754Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T13:44:20.868848Z 0 [Note] Binlog end
+2022-03-03T13:44:20.869606Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T13:44:20.869650Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T13:44:20.869659Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T13:44:20.869667Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T13:44:20.869674Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T13:44:20.869682Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T13:44:20.869689Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T13:44:20.869741Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T13:44:20.869750Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T13:44:20.869761Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T13:44:20.869769Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T13:44:20.869776Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T13:44:20.869782Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T13:44:20.869789Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T13:44:20.869796Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T13:44:20.869803Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T13:44:20.869809Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T13:44:20.869816Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T13:44:20.869823Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T13:44:20.869829Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T13:44:20.869836Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T13:44:20.869843Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T13:44:20.869850Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T13:44:20.869856Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T13:44:20.869863Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T13:44:20.869870Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T13:44:20.869877Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T13:44:20.869883Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T13:44:20.869890Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T13:44:20.869897Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T13:44:20.869904Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T13:44:20.869910Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T13:44:20.869917Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T13:44:20.869924Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T13:44:20.869931Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T13:44:20.869937Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T13:44:20.869944Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T13:44:20.869951Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T13:44:20.869958Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T13:44:20.869964Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T13:44:20.870053Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T13:44:20.870218Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T13:44:20.973075Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:44:20.973591Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 16:44:20
+2022-03-03T13:44:22.600241Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871829
+2022-03-03T13:44:22.603121Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T13:44:22.603148Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T13:44:22.603157Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T13:44:22.603166Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T13:44:22.603172Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T13:44:22.603493Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T13:44:22.604104Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2022-03-03T13:44:39.565661Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-03-03T13:44:39.568757Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.36-0ubuntu0.18.04.1) starting as process 17058 ...
+2022-03-03T13:44:39.576693Z 0 [Note] InnoDB: PUNCH HOLE support available
+2022-03-03T13:44:39.576763Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-03-03T13:44:39.576772Z 0 [Note] InnoDB: Uses event mutexes
+2022-03-03T13:44:39.576781Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-03-03T13:44:39.576788Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-03-03T13:44:39.576796Z 0 [Note] InnoDB: Using Linux native AIO
+2022-03-03T13:44:39.577241Z 0 [Note] InnoDB: Number of pools: 1
+2022-03-03T13:44:39.577422Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-03-03T13:44:39.580461Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-03-03T13:44:39.599302Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-03-03T13:44:39.603137Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2022-03-03T13:44:39.619451Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-03-03T13:44:39.641432Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-03-03T13:44:39.641591Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-03-03T13:44:39.750490Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-03-03T13:44:39.753116Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-03-03T13:44:39.753163Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-03-03T13:44:39.754298Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 2871829
+2022-03-03T13:44:39.754630Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:44:39.755227Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-03-03T13:44:39.761196Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220303 16:44:39
+2022-03-03T13:44:39.768068Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-03-03T13:44:39.768122Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-03-03T13:44:39.768132Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:44:39.768138Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2022-03-03T13:44:39.769202Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-03-03T13:44:39.769258Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-03-03T13:44:39.769372Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-03-03T13:44:39.769391Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-03-03T13:44:39.769466Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-03-03T13:44:39.780216Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-03-03T13:44:39.780577Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.36-0ubuntu0.18.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+2022-03-03T13:48:23.351384Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-03-03T13:48:23.351473Z 0 [Note] Shutting down slave threads
+2022-03-03T13:48:23.351496Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-03-03T13:48:23.351517Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-03-03T13:48:23.351598Z 0 [Note] Binlog end
+2022-03-03T13:48:23.352771Z 0 [Note] Shutting down plugin 'validate_password'
+2022-03-03T13:48:23.352841Z 0 [Note] Shutting down plugin 'auth_socket'
+2022-03-03T13:48:23.352855Z 0 [Note] Shutting down plugin 'ngram'
+2022-03-03T13:48:23.352868Z 0 [Note] Shutting down plugin 'partition'
+2022-03-03T13:48:23.352881Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-03-03T13:48:23.352896Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-03-03T13:48:23.352909Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-03-03T13:48:23.352992Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-03-03T13:48:23.353007Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-03-03T13:48:23.353027Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-03-03T13:48:23.353041Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-03-03T13:48:23.353053Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-03-03T13:48:23.353066Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-03-03T13:48:23.353079Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-03-03T13:48:23.353091Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-03-03T13:48:23.353104Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-03-03T13:48:23.353117Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-03-03T13:48:23.353130Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-03-03T13:48:23.353142Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-03-03T13:48:23.353155Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-03-03T13:48:23.353168Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-03-03T13:48:23.353181Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-03-03T13:48:23.353193Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-03-03T13:48:23.353206Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-03-03T13:48:23.353218Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-03-03T13:48:23.353231Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-03-03T13:48:23.353244Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-03-03T13:48:23.353256Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-03-03T13:48:23.353268Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-03-03T13:48:23.353281Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-03-03T13:48:23.353293Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-03-03T13:48:23.353306Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-03-03T13:48:23.353318Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-03-03T13:48:23.353331Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-03-03T13:48:23.353344Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-03-03T13:48:23.353356Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-03-03T13:48:23.353369Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-03-03T13:48:23.353381Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-03-03T13:48:23.353394Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-03-03T13:48:23.353406Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-03-03T13:48:23.355031Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-03-03T13:48:23.355351Z 0 [Note] InnoDB: Starting shutdown...
+2022-03-03T13:48:23.455609Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2022-03-03T13:48:23.456210Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220303 16:48:23
+2022-03-03T13:48:24.687021Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2871857
+2022-03-03T13:48:24.690004Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-03-03T13:48:24.690052Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-03-03T13:48:24.690061Z 0 [Note] Shutting down plugin 'CSV'
+2022-03-03T13:48:24.690070Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-03-03T13:48:24.690076Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-03-03T13:48:24.690417Z 0 [Note] Shutting down plugin 'binlog'
+2022-03-03T13:48:24.691031Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
